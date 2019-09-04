@@ -35,6 +35,7 @@ class Student < InteractiveRecord
   
   def values_for_insert
     values = []
-    self.class.column_names
+    self.class.column_names.each do |col|
+      
   end 
 end
