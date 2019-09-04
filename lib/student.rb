@@ -21,7 +21,8 @@ class Student < InteractiveRecord
     column_names.compact
   end 
   
-  self.column_names
+  self.column_names.each do |column|
+    
   
   
 end
