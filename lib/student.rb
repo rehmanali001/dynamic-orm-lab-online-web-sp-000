@@ -12,6 +12,6 @@ class Student < InteractiveRecord
     
     sql = "PRAGMA table_info('#{table_name}')"
     
-    table_info = 
+    table_info = DB
   end 
 end
