@@ -52,8 +52,8 @@ class Student < InteractiveRecord
     DB[:conn].execute(sql)
   end 
   
-  def self.find_by(x)
-    sql = "SELECT * FROM #{self.table_name} WHERE #{self.column_names:} = x" 
+  def self.find_by(id:)
+    sql = "SELECT * FROM #{self.table_name} WHERE #{self.column_names} = id:" 
     DB[:conn].execute(sql)
   end 
 end
