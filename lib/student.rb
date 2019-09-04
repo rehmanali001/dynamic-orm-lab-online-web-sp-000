@@ -25,7 +25,9 @@ class Student < InteractiveRecord
     attr_accessor column.to_sym
   end 
   
-  
+  def table_name_for_insert
+    
+  end 
   
   
 end
