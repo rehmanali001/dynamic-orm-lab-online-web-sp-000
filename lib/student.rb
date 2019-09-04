@@ -8,6 +8,6 @@ class Student < InteractiveRecord
   end
   
   def self.column_names
-    DB[:conn].results_as
+    DB[:conn].results_as_hash.
   end 
 end
