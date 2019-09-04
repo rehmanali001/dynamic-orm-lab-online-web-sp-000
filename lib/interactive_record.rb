@@ -3,7 +3,7 @@ require 'active_support/inflector'
 
 class InteractiveRecord
   
-  def initialize 
+  def initialize(options)
     
   end 
 end
