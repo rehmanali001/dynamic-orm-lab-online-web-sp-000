@@ -22,7 +22,7 @@ class Student < InteractiveRecord
   end 
   
   self.column_names.each do |column|
-    
+    attr_accessor
   
   
 end
