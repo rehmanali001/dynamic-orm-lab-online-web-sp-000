@@ -42,7 +42,7 @@ class Student < InteractiveRecord
   end
   
   def save 
-    sql = ()
+    sql = "INSERT INTO "
   end 
  
  
