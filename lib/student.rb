@@ -53,7 +53,7 @@ class Student < InteractiveRecord
   end 
   
   def self.find_by(int)
-    sql = "SELECT * FROM #{self.table_name} WHERE int = '#{?}'" 
+    sql = "SELECT * FROM #{self.table_name} WHERE int = '#{}'" 
     DB[:conn].execute(sql)
   end 
 end
