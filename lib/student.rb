@@ -4,6 +4,6 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
   def self.table_name
-    self.table_name.to_s.pluralize 
+    self.to_s.downcase.pluralize 
   end
 end
