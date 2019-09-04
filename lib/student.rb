@@ -8,6 +8,6 @@ class Student < InteractiveRecord
   end
   
   def self.column_names
-    DB[:conn]
+    DB[:conn].re
   end 
 end
