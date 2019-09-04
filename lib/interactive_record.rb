@@ -3,7 +3,8 @@ require 'active_support/inflector'
 
 class InteractiveRecord
   
-  def initialize(options)
+  def initialize(options={})
+    self.send
     
   end 
 end
