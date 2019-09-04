@@ -38,4 +38,5 @@ class Student < InteractiveRecord
     self.class.column_names.each do |col|
       values << "'#{send(col)}'" unless send(col).nil?
   end 
+ end 
 end
