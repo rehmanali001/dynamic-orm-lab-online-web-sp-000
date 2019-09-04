@@ -17,5 +17,6 @@ class Student < InteractiveRecord
     
     table_info.each do |column|
       column_names << column["names"]
+    end 
   end 
 end
