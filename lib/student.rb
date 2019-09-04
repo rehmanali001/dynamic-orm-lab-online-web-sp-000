@@ -53,7 +53,7 @@ class Student < InteractiveRecord
   end 
   
   def self.find_by(atr)
-    sql = "SELECT * FROM #{self.table_name} WHERE #{atr}" 
+    sql = "SELECT * FROM #{self.table_name} WHERE #{atr.keys}" 
     DB[:conn].execute(sql)
   end 
 end
