@@ -39,5 +39,11 @@ class Student < InteractiveRecord
       values << "'#{send(col)}'" unless send(col).nil?
   end 
   values.join(", ")
- end 
+  end
+  
+  def save 
+    
+  end 
+ 
+ 
 end
