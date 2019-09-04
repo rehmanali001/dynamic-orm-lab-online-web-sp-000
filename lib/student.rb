@@ -11,5 +11,7 @@ class Student < InteractiveRecord
     DB[:conn].results_as_hash = true 
     
     sql = "PRAGMA table_info('#{table_name}')"
+    
+    table_info = 
   end 
 end
